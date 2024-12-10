@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/Estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pizzaria</h1>
+    <form>
+        <p>Item do pedido:
+            <input type="radio" name="produto" id="rbPizza" checked autofocus> Pizza
+            <input type="radio" name="produto" id="rbBebida"> Bebida
+            <span>Itens:</span>
+            <select id="inPizza">
+                <option value="media">Pizza Media</option>
+                <option value="grande">Pizza Grande</option>
+                <option value="familia">Pizza Familia</option>
+            </select>
+            <select  id="inBebida" class="oculta">
+                <option value="refri">Refrigerante Litro</option>
+                <option value="suco">Jarra de Suco</option>
+                <option value="agua">Água Mineral</option>
+            </select>
+        </p>
+        <p>detalhe do pedido:   
+            <input type="text" id="inDetalhes">
+            <input type="submit" value="Adicionar">
+        </p>
+    </form>
+    <pre></pre>
+    <script src="Js/ex8_4.js"></script>
+</body>
+</html>
